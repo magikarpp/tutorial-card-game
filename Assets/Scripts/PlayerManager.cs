@@ -67,15 +67,41 @@ public class PlayerManager : NetworkBehaviour
             else
             {
                 card.transform.SetParent(EnemyArea.transform, false);
-                card.GetComponent<CardFlipper>().Flip(); 
+                card.GetComponent<CardFlipper>().Flip();
             }
         }
         else if (type == "Played")
         {
             card.transform.SetParent(DropZone.transform, false);
-            if (!hasAuthority) {
-                card.GetComponent<CardFlipper>().Flip(); 
+            if (!hasAuthority)
+            {
+                card.GetComponent<CardFlipper>().Flip();
             }
         }
+    }
+
+    [Command]
+    public void CmdTargetSelfCard()
+    {
+        TargetSelfCard();
+    }
+
+    [Command]
+    public void CmdTargetOtherCard(GameObject target)
+    {
+        NetworkIdentity opponentIdentity = target.GetComponent<NetworkIdentity>();
+        TargetOtherCard(opponentIdentity.connectionToClient);
+    }
+
+    [TargetRpc]
+    private void TargetSelfCard()
+    {
+        Debug.Log("Targeted by Self");
+    }
+
+    [TargetRpc]
+    private void TargetOtherCard(NetworkConnection target)
+    {
+        Debug.Log("Targeted by Other");
     }
 }
