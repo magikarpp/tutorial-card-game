@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2178807400467823852}
   - component: {fileID: 1076798168855014834}
   - component: {fileID: 5101818830959369755}
+  - component: {fileID: 1004975351885705039}
   m_Layer: 0
   m_Name: PlayerManager
   m_TagString: Untagged
@@ -47,7 +48,7 @@ MonoBehaviour:
   sceneId: 0
   serverOnly: 0
   visible: 0
-  m_AssetId: 
+  m_AssetId: da8689addfa88f54ba91b4e53a929939
   hasSpawned: 0
 --- !u!114 &5101818830959369755
 MonoBehaviour:
@@ -83,3 +84,21 @@ MonoBehaviour:
   showGizmos: 0
   showOverlay: 0
   overlayColor: {r: 0, g: 0, b: 0, a: 0.5}
+--- !u!114 &1004975351885705039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8260104859760641154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fa88b737e4706a4283a50569e542c8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  Card: {fileID: 4230258591408030008, guid: b764c54466f26ef4d9067b951f8a864e, type: 3}
+  PlayerArea: {fileID: 0}
+  EnemyArea: {fileID: 0}
+  DropZone: {fileID: 0}

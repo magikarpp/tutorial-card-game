@@ -413,6 +413,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 109332158}
     m_Modifications:
+    - target: {fileID: -8234556907445685560, guid: 4902458ddfeb51c40ba61ab6ea04386c, type: 3}
+      propertyPath: sceneId
+      value: 639499833
+      objectReference: {fileID: 0}
     - target: {fileID: 1846868000493840286, guid: 4902458ddfeb51c40ba61ab6ea04386c, type: 3}
       propertyPath: m_Name
       value: DropZone
@@ -598,8 +602,69 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyArea
       objectReference: {fileID: 0}
+    - target: {fileID: 4290983852720090723, guid: 5196f7fb74fe2354c8fcf95940146f43, type: 3}
+      propertyPath: sceneId
+      value: 365182416
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5196f7fb74fe2354c8fcf95940146f43, type: 3}
+--- !u!1001 &5478425691113675225
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5478425690738745984, guid: bf17aa85ce09dd045a1f01582721bb8a, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478425690738745984, guid: bf17aa85ce09dd045a1f01582721bb8a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 829.83264
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478425690738745984, guid: bf17aa85ce09dd045a1f01582721bb8a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 574.7366
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478425690738745984, guid: bf17aa85ce09dd045a1f01582721bb8a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -203.36194
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478425690738745984, guid: bf17aa85ce09dd045a1f01582721bb8a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478425690738745984, guid: bf17aa85ce09dd045a1f01582721bb8a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478425690738745984, guid: bf17aa85ce09dd045a1f01582721bb8a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478425690738745984, guid: bf17aa85ce09dd045a1f01582721bb8a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478425690738745984, guid: bf17aa85ce09dd045a1f01582721bb8a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478425690738745984, guid: bf17aa85ce09dd045a1f01582721bb8a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478425690738745984, guid: bf17aa85ce09dd045a1f01582721bb8a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5478425690738745996, guid: bf17aa85ce09dd045a1f01582721bb8a, type: 3}
+      propertyPath: m_Name
+      value: NetworkManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bf17aa85ce09dd045a1f01582721bb8a, type: 3}
 --- !u!1001 &6470556634579744154
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -712,6 +777,10 @@ PrefabInstance:
       propertyPath: PlayerArea
       value: 
       objectReference: {fileID: 501040769}
+    - target: {fileID: 2766635543918361273, guid: 84fe02a9da7bada49a05342110912a66, type: 3}
+      propertyPath: sceneId
+      value: 286079653
+      objectReference: {fileID: 0}
     - target: {fileID: 6914072050269666188, guid: 84fe02a9da7bada49a05342110912a66, type: 3}
       propertyPath: m_Name
       value: Button
@@ -809,6 +878,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 109332158}
     m_Modifications:
+    - target: {fileID: 745474114216327537, guid: ebf38d7fec46c8640a6a23e19d01c4f6, type: 3}
+      propertyPath: sceneId
+      value: 3654759624
+      objectReference: {fileID: 0}
     - target: {fileID: 8794077516160492036, guid: ebf38d7fec46c8640a6a23e19d01c4f6, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
